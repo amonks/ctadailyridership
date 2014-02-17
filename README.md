@@ -11,4 +11,6 @@ processing visualization of the cta daily ridership
 
 3. `ctadailyridership-circles.pde` is intended to graph one year of data into a circular graph. It's saved into `/pdfs/[year].pdf`
 
-3. `ctadailyridership-bars.pde` is intended to graph any amount of data into a bar graph. It's saved into `/pdfs/alldata.pdf`
+4. `ctadailyridership-bars.pde` is intended to graph any amount of data into a bar graph. It's saved into `/pdfs/alldata.pdf`
+
+5. `convert-to-pngs.workflow` is intended to convert the pdf output of the processing sketches into `.png` image files, saved into `/images/`
