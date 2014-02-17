@@ -11,7 +11,7 @@ void setup() {
  // size(1200, 1200);
 	int yearmin = 2001;
 	int yearmax = 2013;
-	int = 2001;
+	int y = 2013;
 	// for (int y = yearmin; y <= yearmax; y++) {
 
 	//print to PDF
