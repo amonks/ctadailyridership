@@ -17,6 +17,10 @@ inputcsv = CSV.read(inputfile, :headers => true)
 					outputbusarray.push(row[2])
 					outputrailarray.push(row[3])
 				end
+			else
+				outputdatearray.push("0")
+				outputbusarray.push("0")
+				outputrailarray.push("0")
 			end
 		end
 		outputcsv << outputdatearray
