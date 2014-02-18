@@ -1,7 +1,9 @@
 ctadailyridership
 =================
 
-processing visualization of the cta daily ridership
+Visualization of the CTA's daily ridership.
+
+Busses are blue, trains are red.
 
 ## four components:
 
