@@ -5,6 +5,8 @@ Visualization of the CTA's daily ridership.
 
 Busses are blue, trains are red.
 
+Check out [the images](https://github.com/amonks/ctadailyridership/tree/master/images)
+
 ## four components:
 
 1. the original dataset, `CTA_-_Ridership_-_Daily_Boarding_Totals.csv`. Note that October 2011 is included twice.
