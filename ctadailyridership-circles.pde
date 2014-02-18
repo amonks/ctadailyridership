@@ -19,7 +19,7 @@ void setup() {
 
 	// set the background color to white.
 	background(255);
-	font = createFont("Arial",10,true);
+	font = createFont("Arial",18,true);
 	textFont(font);
 
 
