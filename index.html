@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>CTA Daily Ridership.</title>
+
+<!--    css -->
+    <link rel="stylesheet" media="all" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    
+
+<!--    js -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>.
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container" style="padding: 10px;">
+        <div class="row">
+            <div class="page-header">
+                <h1>Doge Generator
+                    <small id="tagline">such doge.</small>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="buttonbox">
+                <div class="btn-group btn-group-justified">
+                    <div class="btn-group"><button id="2001" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2002" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2003" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2004" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2005" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2006" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2007" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2008" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2009" class="btn-year btn btn-info" >2001</button></div>
+                </div>
+                <div class="btn-group btn-group-justified">
+                    <div class="btn-group"><button id="2010" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2012" class="btn-year btn btn-info" >2001</button></div>
+                    <div class="btn-group"><button id="2013" class="btn-year btn btn-info" >2001</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 class="yearheader">2001</h2>
+            <div id="circlebox">
+                <img id="circleimage" src="/images/2001.png" alt="daily boarding stats" />
+            </div>
+        </div>
+        <div class="row">
+            <div id="timelinebox">
+                <image src="/images/alldata.png" alt="timeline of cta boardings" />
+            </div>
+        </div>
+
+        <script>
+        $(".btn-year").hover(function() {
+            var year = $(this).attr('id');
+            $(#circleimage).attr("src", "/images/" + year + ".png");
+        });
+        </script>
+    </div>
+</body>
+
+</html>
