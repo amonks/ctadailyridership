@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="row">
-            <h2 class="yearheader">2001</h2>
+            <h2 id="yearheader">2001</h2>
             <div id="circlebox">
                 <img id="circleimage" class="img-responsive" src="images/2001.png" alt="daily boarding stats" />
             </div>
@@ -68,6 +68,7 @@
             var year = $(this).attr('id');
             console.log(year);
             $("#circleimage").attr("src", "images/" + year + ".png");
+            $("#yearheader").text(year);
         });
         </script>
 
