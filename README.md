@@ -5,6 +5,8 @@ Visualization of the CTA's daily ridership.
 
 Busses are blue, trains are red.
 
+2011 has October's data included twice. You can thank the city of Chicago for that. 
+
 Check out [the images](https://github.com/amonks/ctadailyridership/tree/master/images)
 
 ## four components:
