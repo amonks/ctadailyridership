@@ -113,6 +113,8 @@
         </div>
         <script>
         $(".btn-year").hover(function() {
+            $(".btn-year").removeClass("active");
+            $(this).addClass("active");
             var year = $(this).attr('id');
             console.log(year);
             $("#circleimage").attr("src", "images/" + year + ".png");
